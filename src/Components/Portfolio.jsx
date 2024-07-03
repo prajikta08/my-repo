@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/code.jpeg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Weather Application 😶‍🌫️⛅",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This Weather App provides current weather information for a specified city using the OpenWeatherMap API. It displays temperature, humidity, wind speed, and an appropriate weather icon.",
+    url: "https://prajikta08.github.io/weather-app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "To-Do Application 📃",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Developed a to-do list application utilizing HTML, CSS and javaScript, which enables users to store and retrive their task persistently, even after closing the site.",
+    url: "https://prajikta08.github.io/to-do-list/todo.html",
   },
   {
-    title: "My Resume Site",
+    title: "CODE-WARRIOR 👾🪐🎮",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "The game is a simple 2D platformer where the player character can move left, right, and jump. The objective is to reach checkpoints scattered across the game world. The game ends when the player reaches the final checkpoint.",
+    url: "https://prajikta08.github.io/code-warrior-game/game.html",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Responsive web page",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Designed and developed a responsive product landing page to ensure seamless accessibilty and user experience across various devices and screen sizes",
+    url: "https://prajikta08.github.io/product-landing-page/product.html",
   },
 ];
 
@@ -64,7 +64,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "80%", width: "90%", objectFit: "cover" }}
             alt={imageAltText}
           />
         </div>
